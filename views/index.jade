@@ -1,0 +1,11 @@
+h1= title
+p Welcome to #{title}. My IP address for setting A-records is 71.19.149.239 and I am running Ubuntu 10.04 LTS.
+p Port assignment:
+table
+  tr
+    td 0-3999
+    td nate
+  tr
+    td 4000-5999
+    td skunk
+p Domains are routed and configured through nginx, as defined in ~/nginx-servers/*.conf - ask Nate to reload nginx configuration after you make any domain or server changes. You are free to run anything on any port in your allotted range, and can map unlimited domains to those ports. Recommended one nginx config file per application.
